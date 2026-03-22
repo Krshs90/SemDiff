@@ -17,7 +17,7 @@ def get_staged_diff() -> str:
 
         if len(diff_text) > MAX_DIFF_CHARS:
             diff_text = (
-                diff_text[:MAX_DIFF_CHARS]
+                str(diff_text)[:MAX_DIFF_CHARS]  # type: ignore
                 + "\n\n... [DIFF TRUNCATED — too large for context window. "
                 + f"Showing first {MAX_DIFF_CHARS:,} characters out of {len(result.stdout):,}.]"
             )
