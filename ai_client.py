@@ -1,4 +1,4 @@
-import requests
+import requests  # type: ignore
 import json
 import sys
 
@@ -13,7 +13,7 @@ def ask_local_ai(prompt: str, model: str = "llama3.2:1b") -> str:
     }
     
     try:
-        from rich import print as rprint
+        from rich import print as rprint  # type: ignore
     except ImportError:
         rprint = print
 

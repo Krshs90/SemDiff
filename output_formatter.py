@@ -1,6 +1,6 @@
-from rich.console import Console
-from rich.markdown import Markdown
-from rich.panel import Panel
+from rich.console import Console  # type: ignore
+from rich.markdown import Markdown  # type: ignore
+from rich.panel import Panel  # type: ignore
 
 console = Console()
 
