@@ -201,5 +201,5 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 <div align="center">
-  <sub>Built by <a href="https://github.com/Krshs90">Krshs90</a></sub>
+  <sub>Built by <a href="https://github.com/Krshs90">Krshs90</a> | Bugfixed by Google Antigravity | README created by Gemini 3.1 Pro</sub>
 </div>
